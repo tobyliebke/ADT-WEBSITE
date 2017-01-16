@@ -20,6 +20,10 @@ body{
   box-shadow: 0 3px #ccc;
 }
 
+.asset-area {
+
+}
+
 .chatbox {
   float: right;
   width: 250px;
