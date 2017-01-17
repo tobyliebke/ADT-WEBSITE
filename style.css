@@ -36,7 +36,6 @@ body{
   padding: 2px 20px;
   margin-top: 5px;
   margin-left: 5px;
-  box-shadow: 0 3px #ccc;
 }
 
 .post-area {
@@ -184,7 +183,7 @@ body{
   font-size: 10px;
   color: #fff;
   border: none;
-  margin: 0 10px;
+  margin top: 20px;
   border-radius: 3px;
   box-shadow: 0 3px 0 #0eb2c1;
   cursor: pointer;
@@ -205,6 +204,23 @@ body{
   font-size: 12px;
   color: #333;
 }
+.middle{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.middle-form textarea:focus {
+  background: #fff;
+}
+.middle-form textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+.middle-form textarea::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(0,0,0,.1);
+}
 
 .middle-things {
   padding: 2px;
@@ -212,6 +228,15 @@ body{
   height: 500px;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+.middle-things::-webkit-scrollbar {
+  width: 10px;
+}
+
+.middle-things::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: rgba(0,0,0,.1);
 }
 
 .chat-form button:hover {
