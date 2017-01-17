@@ -44,7 +44,7 @@ body{
   min-width: 390;
   height: 600px;
   background: #fff;
-  padding: 2px 25px;
+  padding: 15px 25px;
   margin-top: 5px;
   margin-left: 35px;
   box-shadow: 0 3px #ccc;
@@ -161,6 +161,9 @@ body{
 .chat-form textarea::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: rgba(0,0,0,.1);
+  .
+
+
 }
 .chat-form button {
   background: #1ddced;
@@ -178,12 +181,13 @@ body{
   -o-transition: background .2s ease
 }
 .middle-form button {
+  float: left;
   background: #1ddced;
-  padding: 5px 15px;
-  font-size: 10px;
+  padding: 5px 38px;
+  font-size: 25px;
   color: #fff;
   border: none;
-  margin top: 20px;
+  margin: 16px;
   border-radius: 3px;
   box-shadow: 0 3px 0 #0eb2c1;
   cursor: pointer;
@@ -194,9 +198,11 @@ body{
 }
 
 .middle-form textarea {
+  float: left;
+  margin: 15px;
   background: #fbfbfb;
-  width: 90%;
-  height: 25px;
+  width: 1000px;
+  height: 50px;
   border: 2px solid #eee;
   border-radius: 3px;
   resize: none;
@@ -205,6 +211,7 @@ body{
   color: #333;
 }
 .middle{
+  padding: 25px;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
@@ -223,7 +230,7 @@ body{
 }
 
 .middle-things {
-  padding: 2px;
+  padding: 10px 20px 200px;
   width: 100%;
   height: 500px;
   overflow-x: hidden;
@@ -237,6 +244,16 @@ body{
 .middle-things::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: rgba(0,0,0,.1);
+}
+
+.posted-photo {
+  margin: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.middle_post {
+  margin: 20px;
 }
 
 .chat-form button:hover {
